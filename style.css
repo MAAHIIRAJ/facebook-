@@ -1,0 +1,1005 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.nav{
+  /* background-color: brown; */
+  height: 74px;
+  background-color: rgb(243, 250, 250);
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  /* display: block; */
+margin-top: 10px;
+  
+}
+.search{
+ width: 220px;
+ height: 25px;
+ border: 03px solid gray;
+ padding: 05px;
+ border-radius: 30px; 
+ margin-left: 60px;
+ margin-top: -45px;
+display: flex;
+}
+input{
+  background: transparent;
+  border: 0px;
+  outline: 0px;
+  width: 300px;
+  margin-top: 10px;
+}
+.search a{
+  margin-left: 10%;
+  font-size: 20px;  
+}
+.bottom{
+  /* border: 3px solid purple; */
+  height: 50px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: -45px;
+  transition: 1s;
+}
+.bottom img:hover{
+  background-color: rgb(150, 149, 149)
+  transition: calc(.01);
+}
+.bottom img{
+  width: 30px;
+  height: 30px;
+  padding: 25px 25px;
+  margin-top: -15px;
+  border-radius: 40px;
+}
+
+.end{
+  /* border: 3px solid yellow; */
+  height: 40px;
+  width: 310px;
+  margin-left: 990px;
+  margin-top: -45px;
+  transition: .02s;
+}
+.end img:hover{
+  background-color: rgb(204, 203, 203);
+  transition: calc(0.1);
+}
+.end img{
+  padding: 2px 2px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+
+.end img{
+  width: 30px;
+  height: 30px;
+}
+.cover-photos{
+ height: 240px;
+ position: relative;
+}
+.cover{
+  width: 1000px;
+  height: 400px;
+  margin-left: 200px;
+  border-radius: 10px;
+  
+}
+.profile{
+  width: 21;
+  height: 30%;
+  position: absolute;
+  border-radius: 160px;
+  overflow: hidden;
+  background: #ffff;
+  padding: 5px;
+  top: 60%;
+  display: block;
+  left: 18%;
+}
+.pictures h1{
+  margin-left: 34%;
+  font-size: 3.22222vw;
+  margin-top: 10px;
+}
+.pictures h6{
+  margin-left: 33%;
+  font-size: large;
+  margin-top: 10px;
+  color: rgb(136, 133, 133);
+}
+.buttons{
+  /* border: 3px solid purple; */
+  width: 40%;
+  height: 70px;
+  margin-left: 680px;
+  transition: .03s;
+}
+.buttons :hover{
+  background-color: rgb(129, 129, 129);
+  transition: calc(1.2);
+}
+button{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 9px 18px;
+  margin-top: 25px;
+    border-radius: 6px;
+    background-color: rgb(162, 166, 167);
+    color: black;
+}
+.buttons img{
+  width: 20px;
+  border-radius: 20px;
+}
+hr{
+  margin-left: -90%;
+  margin-top: -30px;
+}
+.headings{
+  /* border: 3px solid khaki; */
+  width: 50%;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 15%;
+  transition: 2s;
+}
+.headings ul li :hover{
+  background-color: rgb(175, 173, 173);
+  transition: calc(1);
+}
+.headings ul li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px  12px;
+  margin-top: -30px;
+
+}
+.headings ul li a{
+  color: rgb(131, 130, 130);
+  text-decoration: none;
+  font-weight: bold; 
+}
+.intro{
+  border: 3px solid palegreen;
+  width: 30%;
+  height: 600px;
+  margin-left: 15%;
+}
+
+.filter{
+  border: 2px solid lightgray;
+  height: 59px;
+  width: 590px;
+  margin-left: 45%;
+    display: flex;
+  border-radius: 10px;
+  /* border-style: outset; */
+  margin-top: -s20px;
+  transition: 2s;
+}
+.filter h3{
+font-family: sans-serif;
+font-size: x-large;  
+margin-top: 15px;
+}
+.filter img{
+  height: 20px;
+  width: 24px;
+}
+.filter button{
+    margin-left: 65%;
+    margin-top: 9px;
+    width: 120px;
+    height: 42px;
+    transition: 1s;
+}
+filter button img :hover{
+  background-color: rgb(173, 169, 169);
+  transition: calc(1.2);
+}
+.intro{
+  border: 2px solid lightgray;
+  width: 29%;
+  height:1110px;
+  border-radius: 10px;
+  margin-top: -60px;
+}
+.intro h3{
+  font-size: x-large;
+  padding: 10px;
+}
+.intro p{
+  color: rgb(46, 46, 46);
+  padding: 15px;
+  margin-top: -15px;
+  padding-left: 30px;
+  border-bottom: rgb(179, 176, 176) thin solid;
+}
+.intro a{
+  display: flex;
+  padding: 10px 20px;
+  color: rgb(83, 81, 81);
+  font-size: 1.1111vw;
+}
+
+.link a{
+  display: flex;
+  padding: 10px 12px;
+  color: blue;
+  margin-left: 10px;
+}
+.link img{
+  width: 23px;
+  height: 23px;
+  border-radius: 30px;
+
+}
+.link button{
+  border-radius: 20px;
+  font-size: medium;
+  display: flex;
+background-color: white;margin-left: 10px;
+border: 1px solid lightgray;
+
+}
+.box{
+  height: 450px;
+  width: 29%;
+  margin-left: 15%;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px solid lightgray;
+}
+.containar{
+  width: 100%;
+  height: auto;
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.boxes{
+  width: 110px;
+  height:110px;
+  border: 2px solid lightgray;
+  margin: 8px;
+  background-size: cover;
+}
+.box a{
+  margin-left: 70%;
+  margin-top: -20px;
+  display: flex;
+}
+.box h2{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.boxes img{
+  
+  width: 110px;
+  height: 110px;
+background-size: cover;
+}
+.friends{
+  border: 2px solid lightgray;
+  width: 390px;
+  height: 55px;
+  margin-left: 15%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.friends a{
+  margin-left: 70%;
+  margin-top: -20px;
+  display: flex;
+}
+.friends h2{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.event{
+  border: 2px solid lightgray;
+  width: 390px;
+  height: 350px;
+  margin-left: 15%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.event a{
+  margin-left: 70%;
+  margin-top: -20px;
+  display: flex;
+}
+.event h2{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.second{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.dual{
+  width: 190px;
+  height:230px;
+  border: 2px solid lightgray;
+  margin: 9px;
+margin-left: 20px;
+margin-top: 20px;
+transition: 03s;
+}
+.dual img{
+  background-color: rgb(118, 118, 248);
+  border-radius: 8PX;
+margin-left:60px;
+width: 30px;
+margin-top: 40px;
+height: 30px;
+}
+.dual a{
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.dual :hover {
+  transition: 8ms;
+  color: lightgray;
+}
+.first{
+  border: 2px solid lightgray;
+  width: 550px;
+  height: 520px;
+  margin-left: 46%;
+  margin-top: -1940px;
+  border-radius: 10px;
+}
+.set-image{
+  border: 2px solid white;
+  width: 546px;
+  height: 370px;
+  margin-top: 2%;
+  display: block;
+  background-image: url(images/i1.jpeg);
+  background-size: cover;
+}
+.first img{
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  outline: rgb(71, 71, 235) solid;
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.first  h3{
+margin-left: 80px;
+margin-top: -40px;
+font-size: large;
+display: block;
+}
+.first  h6{
+  margin-left: 80px;
+  margin-top: -1px;
+  }
+   .first .world{
+    width: 10px;
+    height: 10px;
+    outline: none;
+    margin-left: 147px;
+margin-top: 5px;
+display: block;
+
+  }
+  .first h5{
+    margin-left: 500px;
+    font-size: larger;
+    margin-top: -40px;
+    display: block;
+    color: rgb(41, 38, 38);
+  }
+  .set-image .frozen{
+    outline: none;
+    border-radius: 0px;
+    width: 546px;
+    height: 370px; 
+  }
+  .set-image .like{
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+  }
+  .set-image .comment {
+    color: blue;
+    margin-top: -41px;
+    width: 59px;
+    margin-left: 35%;
+    height: 45px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+
+  .set-image .share {
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+  .set-image ul{
+    height: 60px;
+    margin-top: 69%;
+    width: 546px;
+    /* display: flex; */
+  }
+  .set-image li{
+    display: flex;
+    outline: none;
+    
+  }
+  .set-image li img{
+  padding:79px;
+    outline: none;
+    margin-right: -10px;
+    margin-top: -70px;
+    margin-left: -20px;
+    border-radius: 0px;
+    height: 30px;
+    width: 30px;
+align-items: center;
+justify-content: center;    
+  }
+  
+  /* second */
+  .dabba{
+    border: 2px solid lightgray;
+    width: 550px;
+    height: 520px;
+    margin-left: 46%;
+  margin-top: 10px;
+  border-radius: 10px;  
+  }
+  .dabba img{
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+    outline: rgb(71, 71, 235) solid;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+  }
+  .dabba  h3{
+  margin-left: 80px;
+  margin-top: -40px;
+  font-size: large;
+  display: block;
+  }
+  .dabba  h6{
+    margin-left: 80px;
+    margin-top: -1px;
+    }
+     .dabba .world{
+      width: 10px;
+      height: 10px;
+      outline: none;
+      margin-left: 147px;
+  margin-top: 5px;
+  display: block;
+  
+    }
+    .dabba h5{
+      margin-left: 500px;
+      font-size: larger;
+      margin-top: -40px;
+      display: block;
+      color: rgb(41, 38, 38);
+    }
+
+    /* ... */
+    .sec-image{
+      border: 2px solid white;
+      width: 546px;
+      height: 370px;
+      margin-top: 2%;
+      display: block;
+      background-image: url(images/i2.jpeg);
+      background-size: cover;
+    }
+    .sec-image .like{
+      color: blue;
+      margin-top: 70%;
+      width: 25px;
+      height: 25px;
+      outline: none;
+      border-radius: 0px;
+    }
+    .sec-image .comment {
+      color: blue;
+      margin-top: -41px;
+      width: 59px;
+      margin-left: 35%;
+      height: 45px;
+      outline: none;
+      border-radius: 0px;
+  
+    }
+  
+    .sec-image .share {
+      color: blue;
+      margin-top: 70%;
+      width: 25px;
+      height: 25px;
+      outline: none;
+      border-radius: 0px;
+  
+    }
+    .sec-image ul{
+      height: 60px;
+      margin-top: 69%;
+      width: 546px;
+      /* display: flex; */
+    }
+    .sec-image li{
+      display: flex;
+      outline: none;
+      
+    }
+    .sec-image li img{
+    padding:79px;
+      outline: none;
+      margin-right: -10px;
+      margin-top: -70px;
+      margin-left: -20px;
+      border-radius: 0px;
+      height: 30px;
+      width: 30px;
+  align-items: center;
+  justify-content: center;    
+    }
+    /* third */
+
+    .third{
+      border: 2px solid lightgray;
+      width: 550px;
+      height: 520px;
+      margin-left: 46%;
+    margin-top: 10px;
+    border-radius: 10px; 
+    }
+    .third img{
+      width: 35px;
+      height: 35px;
+      border-radius: 40px;
+      outline: rgb(71, 71, 235) solid;
+      padding: 5px 5px;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+    }
+    .third  h3{
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: large;
+    display: block;
+    }
+    .third  h6{
+      margin-left: 80px;
+      margin-top: -1px;
+      }
+       .third .world{
+        width: 10px;
+        height: 10px;
+        outline: none;
+        margin-left: 147px;
+    margin-top: 5px;
+    display: block;
+    
+      }
+      .third h5{
+        margin-left: 500px;
+        font-size: larger;
+        margin-top: -40px;
+        display: block;
+        color: rgb(41, 38, 38);
+      }
+  /* .... */
+  .th-image{
+    border: 2px solid white;
+    width: 546px;
+    height: 370px;
+    margin-top: 2%;
+    display: block;
+    background-image: url(images/i3.jpeg);
+    background-size: cover;
+  }
+  .th-image .like{
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+  }
+  .th-image .comment {
+    color: blue;
+    margin-top: -41px;
+    width: 59px;
+    margin-left: 35%;
+    height: 45px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+
+  .th-image .share {
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+  .th-image ul{
+    height: 60px;
+    margin-top: 69%;
+    width: 546px;
+    /* display: flex; */
+  }
+  .th-image li{
+    display: flex;
+    outline: none;
+    
+  }
+  .th-image li img{
+  padding:79px;
+    outline: none;
+    margin-right: -10px;
+    margin-top: -70px;
+    margin-left: -20px;
+    border-radius: 0px;
+    height: 30px;
+    width: 30px;
+align-items: center;
+justify-content: center;    
+  }
+  /* forth */
+  .forth{
+    border: 2px solid lightgray;
+    width: 550px;
+    height: 520px;
+    margin-left: 46%;
+  margin-top: 10px;
+  border-radius: 10px; 
+  }
+  .forth img{
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+    outline: rgb(71, 71, 235) solid;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+  }
+  .forth  h3{
+  margin-left: 80px;
+  margin-top: -40px;
+  font-size: large;
+  display: block;
+  }
+  .forth  h6{
+    margin-left: 80px;
+    margin-top: -1px;
+    }
+     .forth .world{
+      width: 10px;
+      height: 10px;
+      outline: none;
+      margin-left: 147px;
+  margin-top: 5px;
+  display: block;
+  
+    }
+    .forth h5{
+      margin-left: 500px;
+      font-size: larger;
+      margin-top: -40px;
+      display: block;
+      color: rgb(41, 38, 38);
+    }
+    /* ... */
+    .fr-image{
+      border: 2px solid white;
+      width: 546px;
+      height: 370px;
+      margin-top: 2%;
+      display: block;
+      background-image: url(images/i5.jpeg);
+      background-size: cover;
+    }
+    .fr-image .like{
+      color: blue;
+      margin-top: 70%;
+      width: 25px;
+      height: 25px;
+      outline: none;
+      border-radius: 0px;
+    }
+    .fr-image .comment {
+      color: blue;
+      margin-top: -41px;
+      width: 59px;
+      margin-left: 35%;
+      height: 45px;
+      outline: none;
+      border-radius: 0px;
+  
+    }
+  
+    .fr-image .share {
+      color: blue;
+      margin-top: 70%;
+      width: 25px;
+      height: 25px;
+      outline: none;
+      border-radius: 0px;
+  
+    }
+    .fr-image ul{
+      height: 60px;
+      margin-top: 69%;
+      width: 546px;
+      /* display: flex; */
+    }
+    .fr-image li{
+      display: flex;
+      outline: none;
+      
+    }
+    .fr-image li img{
+    padding:79px;
+      outline: none;
+      margin-right: -10px;
+      margin-top: -70px;
+      margin-left: -20px;
+      border-radius: 0px;
+      height: 30px;
+      width: 30px;
+  align-items: center;
+  justify-content: center;    
+    }
+
+    .fifth{
+      border: 2px solid lightgray;
+      width: 550px;
+      height: 520px;
+      margin-left: 46%;
+    margin-top: 10px;
+    border-radius: 10px; 
+    }
+    .fifth img{
+      width: 35px;
+      height: 35px;
+      border-radius: 40px;
+      outline: rgb(71, 71, 235) solid;
+      padding: 5px 5px;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+    }
+    .fifth  h3{
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: large;
+    display: block;
+    }
+    .fifth  h6{
+      margin-left: 80px;
+      margin-top: -1px;
+      }
+       .fifth .world{
+        width: 10px;
+        height: 10px;
+        outline: none;
+        margin-left: 147px;
+    margin-top: 5px;
+    display: block;
+    
+      }
+      .fifth h5{
+        margin-left: 500px;
+        font-size: larger;
+        margin-top: -40px;
+        display: block;
+        color: rgb(41, 38, 38);
+      }
+      /* ... */
+      .ff-image{
+        border: 2px solid white;
+        width: 546px;
+        height: 370px;
+        margin-top: 2%;
+        display: block;
+        background-image: url(images/i6.jpeg);
+        background-size: cover;
+      }
+      .ff-image .like{
+        color: blue;
+        margin-top: 70%;
+        width: 25px;
+        height: 25px;
+        outline: none;
+        border-radius: 0px;
+      }
+      .ff-image .comment {
+        color: blue;
+        margin-top: -41px;
+        width: 59px;
+        margin-left: 35%;
+        height: 45px;
+        outline: none;
+        border-radius: 0px;
+    
+      }
+    
+      .ff-image .share {
+        color: blue;
+        margin-top: 70%;
+        width: 25px;
+        height: 25px;
+        outline: none;
+        border-radius: 0px;
+    
+      }
+      .ff-image ul{
+        height: 60px;
+        margin-top: 69%;
+        width: 546px;
+        /* display: flex; */
+      }
+      .ff-image li{
+        display: flex;
+        outline: none;
+        
+      }
+      .ff-image li img{
+      padding:79px;
+        outline: none;
+        margin-right: -10px;
+        margin-top: -70px;
+        margin-left: -20px;
+        border-radius: 0px;
+        height: 30px;
+        width: 30px;
+    align-items: center;
+    justify-content: center;    
+      }
+/* sixth */
+.sixth{
+  border: 2px solid lightgray;
+  width: 550px;
+  height: 520px;
+  margin-left: 46%;
+margin-top: 10px;
+border-radius: 10px; 
+}
+.sixth img{
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  outline: rgb(71, 71, 235) solid;
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.sixth  h3{
+margin-left: 80px;
+margin-top: -40px;
+font-size: large;
+display: block;
+}
+.sixth  h6{
+  margin-left: 80px;
+  margin-top: -1px;
+  }
+   .sixth .world{
+    width: 10px;
+    height: 10px;
+    outline: none;
+    margin-left: 147px;
+margin-top: 5px;
+display: block;
+
+  }
+  .sixth h5{
+    margin-left: 500px;
+    font-size: larger;
+    margin-top: -40px;
+    display: block;
+    color: rgb(41, 38, 38);
+  }
+  /* ... */
+  .sx-image{
+    border: 2px solid white;
+    width: 546px;
+    height: 370px;
+    margin-top: 2%;
+    display: block;
+    background-image: url(images/i8.jpeg);
+    background-size: cover;
+  }
+  .sx-image .like{
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+  }
+  .sx-image .comment {
+    color: blue;
+    margin-top: -41px;
+    width: 59px;
+    margin-left: 35%;
+    height: 45px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+
+  .sx-image .share {
+    color: blue;
+    margin-top: 70%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 0px;
+
+  }
+  .sx-image ul{
+    height: 60px;
+    margin-top: 69%;
+    width: 546px;
+    /* display: flex; */
+  }
+  .sx-image li{
+    display: flex;
+    outline: none;
+    
+  }
+  .sx-image li img{
+  padding:79px;
+    outline: none;
+    margin-right: -10px;
+    margin-top: -70px;
+    margin-left: -20px;
+    border-radius: 0px;
+    height: 30px;
+    width: 30px;
+align-items: center;
+justify-content: center;    
+  }
+.scroll :hover{
+  scroll-behavior: smooth;
+}
